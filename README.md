@@ -1,4 +1,4 @@
-<h1 align=center>Ubuntu KDE On Android</h1>
+<h1 align=center>Kubuntu On Android</h1>
 
 ## Install TermUX 
 <h1 align=center>
@@ -53,7 +53,7 @@ sudo apt update -y && sudo apt upgrade -y
 ```bash
 sudo apt install udisks2 -y
 ```
-## if [error](https://github.com/ShivaShirsath/Ubuntu-KDE-On-Android/issues)
+## if [error](https://github.com/ShivaShirsath/Kubuntu-On-Android/issues)
 
 ## Install desktop with mate & VNC-server
 ```bash
