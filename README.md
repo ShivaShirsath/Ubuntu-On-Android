@@ -1,4 +1,4 @@
-<h1 align=center>Ubuntu Mate On Android</h1>
+<h1 align=center>Ubuntu KDE On Android</h1>
 
 ## Install TermUX 
 <h1 align=center>
