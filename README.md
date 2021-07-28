@@ -69,7 +69,7 @@ sudo apt install udisks2 -y
 sudo apt install `DESKTOP`	
 ```
 
-## Setting VNC Server
+## Setting Virtual Network Computing ( VNC ) Server
 ```bash
 sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension tigervnc-viewer
 ```
