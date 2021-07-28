@@ -75,8 +75,9 @@ sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-xorg-extens
 ```
 ## Run VNC Server & Open VNC Viewer
 ```bash
-tigervncserver -xstartup /usr/bin/startkde -geometry 1800x900 :1
+tigervncserver -geometry 1800x900 :1
 ```
+<!-- -xstartup /usr/bin/startkde -->
 ## Stop & Close
 ```bash
 tigervncserver -kill :*
