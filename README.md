@@ -59,7 +59,7 @@ sudo apt install udisks2 -y
 
 | **Desktop** | **Info**
 | ---: | ---:
-| `ubuntu-desktop` | Ubuntu Desktop Environment
+| ```bash ubuntu-desktop ``` | Ubuntu Desktop Environment
 | `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment
 | `kubuntu-desktop` | Kubuntu Desktop Environment
 | `lxde` | Lightweight X11 Desktop Environment
