@@ -1,4 +1,4 @@
-<h1 align=center>Kubuntu On Android</h1>
+<h1 align=center>Ubuntu On Android</h1>
 
 ## Install TermUX 
 <h1 align=center>
@@ -18,7 +18,7 @@ pkg update -y && pkg upgrade -y
 ```bash
 termux-setup-storage
 ```
-## Install Proot-Distro 
+## Install Proot Distro 
 ```bash
 pkg install proot-distro -y
 ```
@@ -55,7 +55,7 @@ sudo apt install udisks2 -y
 ```
 ## if [error](https://github.com/ShivaShirsath/Kubuntu-On-Android/issues)
 
-## Install desktop ( Any one of following [ eg. xfce4 ] )
+## Install Desktop ( Any one of following [ eg. xfce4 ] )
 
 | ‎         ‎ `DESKTOP` ‎         ‎  | Info
 | ---: | ---:
