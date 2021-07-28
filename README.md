@@ -57,13 +57,14 @@ sudo apt install udisks2 -y
 
 ## Install desktop ( Any one of following [ eg. xfce4 ] )
 
-| Desktop | Info
-| :---: | :---:
-| `ubuntu-desktop` | Default Ubuntu desktop
-| `ubuntu-gnome-desktop` | Ubuntu Gnome (Official flavor)
+| : Desktop : | : Info :
+| ---: | ---:
+| `ubuntu-desktop` | Ubuntu Desktop Environment as UDE
+| `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment as UGDE
+| `kubuntu-desktop` | Kubuntu Desktop Environment as KDE
 | `xfce4` |	LXDE
 | `lxde` | LXDE
-| `kubuntu-desktop` | KDE 
+ 
 ```bash
 sudo apt-get install <DESKTOP>	
 ```
