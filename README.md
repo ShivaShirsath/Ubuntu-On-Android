@@ -57,7 +57,7 @@ sudo apt install udisks2 -y
 
 ## Install desktop ( Any one of following [ eg. xfce4 ] )
 
-| ` ‎     ‎ ` `DESKTOP` ` ‎     ‎ ` | Info
+| ` `‎    ‎ `DESKTOP` ` ‎    ‎ ` ` | Info
 | ---: | ---:
 | `ubuntu-desktop ` | Ubuntu Desktop Environment |
 | `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment |
