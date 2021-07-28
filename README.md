@@ -66,11 +66,13 @@ sudo apt install udisks2 -y
 | `xfce4` | X Forms Common Environment
 
 ```bash
-sudo apt-get install `DESKTOP`	
+sudo apt install `DESKTOP`	
 ```
 
 ## Setting VNC Server
-
+```bash
+sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension tigervnc-viewer
+```
 ## Run VNC Server & Open VNC Viewer
 ```bash
 tigervncserver -xstartup /usr/bin/startkde -geometry 1800x900 :1
