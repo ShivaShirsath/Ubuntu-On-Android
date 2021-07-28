@@ -55,11 +55,22 @@ sudo apt install udisks2 -y
 ```
 ## if [error](https://github.com/ShivaShirsath/Kubuntu-On-Android/issues)
 
-## Install desktop with mate & VNC-server
+## Install desktop ( Any one of following [ eg. xfce4 ] )
+
+| Desktop | Info
+| :---: | :---:
+| `ubuntu-desktop` | Default Ubuntu desktop
+| `ubuntu-gnome-desktop` | Ubuntu Gnome (Official flavor)
+| `xfce4` |	LXDE
+| `lxde` | LXDE
+| `kubuntu-desktop` | KDE 
 ```bash
-sudo apt install kubuntu-desktop tigervnc-standalone-server 
+sudo apt-get install <DESKTOP>	
 ```
-## Run & Open 
+
+## Setting VNC Server
+
+## Run VNC Server & Open VNC Viewer
 ```bash
 tigervncserver -xstartup /usr/bin/startkde -geometry 1800x900 :1
 ```
