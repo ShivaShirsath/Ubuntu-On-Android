@@ -16,7 +16,7 @@
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">&lt;code&gt;<br>import java.io.*;<br>class Main{<br>&nbsp;&nbsp;public static void main(String[] args){<br>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello World !");<br>&nbsp;&nbsp;}<br>}</td>
+    <td class="tg-0lax">&lt;code&gt;<br>import java.io.*;<br>class Main{<br>&nbsp;&nbsp;public static void main(String[] args){<br>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello World !");<br>&nbsp;&nbsp;}<br>}</code></td>
     <td class="tg-0lax"></td>
   </tr>
 </tbody>
