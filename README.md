@@ -58,15 +58,15 @@ sudo apt install udisks2 -y
 ## Install desktop ( Any one of following [ eg. xfce4 ] )
 
 | Desktop | Info
-| :---: | :---:
+| ---: | ---:
 | `ubuntu-desktop` | Ubuntu Desktop Environment
 | `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment
 | `kubuntu-desktop` | Kubuntu Desktop Environment
 | `lxde` | Lightweight X11 Desktop Environment
 | `xfce4` | X Forms Common Environment
-| ---: | ---:
+
 ```bash
-sudo apt-get install <DESKTOP>	
+sudo apt-get install `DESKTOP`	
 ```
 
 ## Setting VNC Server
