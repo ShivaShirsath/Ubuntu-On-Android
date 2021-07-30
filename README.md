@@ -57,14 +57,14 @@ sudo apt install udisks2 -y
 
 ## Install Desktop ( Any one of following [ eg. xfce4 ] )
 
-| DESKTOP | Info | StartUP |
+| DESKTOP | Info | `START-UP` |
 | ---: | ---: | ---: |
 | `ubuntu-desktop ` | Ubuntu Desktop Environment |
 | `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment |
-| `ubuntu-mate-desktop` | Mate Desktop Environment | `mate-session &`
-| `kubuntu-desktop` | Kubuntu Desktop Environment | `startkde &` |
+| `ubuntu-mate-desktop` | Mate Desktop Environment | `/usr/bin/mate-session`
+| `kubuntu-desktop` | Kubuntu Desktop Environment | `/usr/bin/startkde` |
 | `lxde` | Lightweight X11 Desktop Environment |
-| `xfce4` | X Forms Common Environment | `startxfce4 &` |
+| `xfce4` | X Forms Common Environment | `/usr/bin/startxfce4` |
 
 ```bash
 sudo apt install `DESKTOP`	
@@ -76,7 +76,7 @@ sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-xorg-extens
 ```
 ## Run VNC Server & Open VNC Viewer
 ```bash
-vncserver -geometry 1800x900 :1
+vncserver -xstartup `START-UP` -geometry 1800x900 :1
 ```
 <!-- tigervncserver -xstartup /usr/bin/startkde -->
 ## Stop & Close
