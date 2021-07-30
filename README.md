@@ -61,10 +61,10 @@ sudo apt install udisks2 -y
 | ---: | ---: | :---: |
 | `ubuntu-desktop ` | Ubuntu Desktop Environment |
 | `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment |
+| `ubuntu-mate-desktop` | Mate Desktop Environment | `mate-session &`
 | `kubuntu-desktop` | Kubuntu Desktop Environment | `startkde &` |
 | `lxde` | Lightweight X11 Desktop Environment |
 | `xfce4` | X Forms Common Environment | `startxfce4 &` |
-| `ubuntu-mate-desktop` | Mate Desktop Environment | `mate-session &`
 
 ```bash
 sudo apt install `DESKTOP`	
