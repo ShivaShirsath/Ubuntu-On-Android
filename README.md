@@ -18,7 +18,7 @@ pkg update -y && pkg upgrade -y
 ```bash
 termux-setup-storage
 ```
-## Install Proot Distro 
+## Install [Proot-Distro](https://github.com/termux/proot-distro)
 ```bash
 pkg install proot-distro -y
 ```
