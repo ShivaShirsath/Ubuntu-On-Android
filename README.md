@@ -58,7 +58,7 @@ sudo apt install udisks2 -y
 ## Install Desktop ( Any one of following [ eg. xfce4 ] )
 
 | DESKTOP | Info | `START-UP` |
-| ---: | ---: | ---: |
+| ---: | ---: | :--- |
 | `ubuntu-desktop ` | Ubuntu Desktop Environment |
 | `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment |
 | `ubuntu-mate-desktop` | Mate Desktop Environment | `/usr/bin/mate-session`
