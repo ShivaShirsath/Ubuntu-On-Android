@@ -53,6 +53,9 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install udisks2 -y
 ```
 ## if [error](https://github.com/ShivaShirsath/Kubuntu-On-Android/issues)
+```bash
+rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
+```
 
 ## Install Desktop ( Any one of following [ eg. xfce4 ] )
 
