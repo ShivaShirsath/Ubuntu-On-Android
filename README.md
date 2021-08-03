@@ -60,7 +60,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 ## Install Desktop ( Any one of following [ eg. xfce4 ] )
 
 | DESKTOP | Info | START-UP |
-| ---: | ---: | :--- |
+| ---: | :---: | :--- |
 | `ubuntu-desktop ` | Desktop |
 | `ubuntu-gnome-desktop` | Gnome |
 | `ubuntu-mate-desktop` | Mate | `/usr/bin/mate-session`
