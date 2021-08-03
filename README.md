@@ -29,7 +29,7 @@ proot-distro install ubuntu-20.04
 ```bash
 proot-distro login ubuntu-20.04
 ```
-## Install sudo ( root/super user )
+## Install sudo ( root / super user )
 ```bash
 apt update -y && apt install sudo -y
 ```
