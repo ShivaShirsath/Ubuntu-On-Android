@@ -61,12 +61,12 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 
 | DESKTOP | Info | `START-UP` |
 | ---: | ---: | :--- |
-| `ubuntu-desktop ` | Ubuntu Desktop Environment |
-| `ubuntu-gnome-desktop` | Ubuntu Gnome Desktop Environment |
-| `ubuntu-mate-desktop` | Mate Desktop Environment | `/usr/bin/mate-session`
-| `kubuntu-desktop` | Kubuntu Desktop Environment | `/usr/bin/startkde` |
-| `lxde` | Lightweight X11 Desktop Environment |
-| `xfce4` | X Forms Common Environment | `/usr/bin/startxfce4` |
+| `ubuntu-desktop ` | Desktop |
+| `ubuntu-gnome-desktop` | Gnome |
+| `ubuntu-mate-desktop` | Mate | `/usr/bin/mate-session`
+| `kubuntu-desktop` | Kubuntu | `/usr/bin/startkde` |
+| `lxde` | Lightweight X11 |
+| `xfce4` | X Forms Common | `/usr/bin/startxfce4` |
 
 ```bash
 sudo apt install `DESKTOP`	
