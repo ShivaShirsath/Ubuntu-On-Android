@@ -1,7 +1,6 @@
 <h1 align=center>Ubuntu On Android</h1>
-
-## Install TermUX 
 <h1 align=center>
+  Install TermUX
   <a href=https://f-droid.org/packages/com.termux>
     ⇱
   </a><span> ‎ </span>
