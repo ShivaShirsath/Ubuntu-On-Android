@@ -1,7 +1,7 @@
 <h1 align=center>Ubuntu On Android</h1>
 <h1 align=center> 
   <a href=https://play.google.com/store/apps/details?id=com.termux>
-    ► Install
+    Install ►
   </a>
   /
   <a href=https://f-droid.org/packages/com.termux>
