@@ -23,11 +23,11 @@ pkg install proot-distro -y
 ```
 ## Install Ubuntu CLI 
 ```bash
-proot-distro install ubuntu-20.04
+proot-distro install ubuntu
 ```
 ## Login in Ubuntu CLI
 ```bash
-proot-distro login ubuntu-20.04
+proot-distro login ubuntu
 ```
 ## Install sudo ( root / super user )
 ```bash
