@@ -62,7 +62,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 | DESKTOP | Info | START-UP |
 | ---: | :---: | :--- |
 | `ubuntu-desktop ` | Desktop |
-| `ubuntu-gnome-desktop` | Gnome |
+| `ubuntu-gnome-desktop` | Gnome | `/usr/bin/gnome-session`
 | `ubuntu-mate-desktop` | Mate | `/usr/bin/mate-session`
 | `kubuntu-desktop` | Kubuntu | `/usr/bin/startkde` |
 | `lxde` | Lightweight X11 | `/usr/bin/startlxde`
