@@ -65,7 +65,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 | `ubuntu-gnome-desktop` | Gnome |
 | `ubuntu-mate-desktop` | Mate | `/usr/bin/mate-session`
 | `kubuntu-desktop` | Kubuntu | `/usr/bin/startkde` |
-| `lxde` | Lightweight X11 |
+| `lxde` | Lightweight X11 | `/usr/bin/startlxde`
 | `xfce4` | X Forms Common | `/usr/bin/startxfce4` |
 
 ```bash
