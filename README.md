@@ -69,7 +69,7 @@ sudo dpkg --configure -a
 | `ubuntu-desktop ` | Desktop |
 | `ubuntu-gnome-desktop` | Gnome | `/usr/bin/gnome-session`
 | `ubuntu-mate-desktop` | Mate | `/usr/bin/mate-session`
-| `kubuntu-desktop` | Kubuntu | `/usr/bin/startkde` OR `/usr/bin/startplasma-x11` |
+| `kubuntu-desktop` | K | `/usr/bin/startkde` OR `/usr/bin/startplasma-x11` |
 | `lxde` | Lightweight X11 | `/usr/bin/startlxde`
 | `xfce4 xfce4-goodies xfce4-terminal` | X Forms Common | `/usr/bin/startxfce4` |
 
