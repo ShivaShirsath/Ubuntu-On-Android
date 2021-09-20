@@ -9,28 +9,28 @@
   </a>
 </h1>
 
-## Update & upgrade TermUX
++ **Update & upgrade TermUX**
 ```bash
 pkg update -y
 pkg upgrade -y
 ```
-## SetUp Storage
++ **SetUp Storage**
 ```bash
 termux-setup-storage
 ```
-## Install [Proot-Distro](https://github.com/termux/proot-distro)
++ **Install [Proot-Distro](https://github.com/termux/proot-distro)**
 ```bash
 pkg install proot-distro -y
 ```
-## Install Ubuntu CLI 
++ **Install Ubuntu CLI**
 ```bash
 proot-distro install ubuntu
 ```
-## Login in Ubuntu CLI
++ **Login in Ubuntu CLI**
 ```bash
 proot-distro login ubuntu
 ```
-## Install sudo ( root / super user )
++ **Install sudo ( root / super user )**
 ```bash
 apt update -y
 apt install sudo -y
@@ -46,23 +46,23 @@ echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```
 -->
 
-## Update & upgrade Ubuntu
++ **Update & upgrade Ubuntu**
 ```bash
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install apt-utils -y
 ```
-## Install udisks2
++ **Install udisks2**
 ```bash
 sudo apt install udisks2 -y
 ```
-## if [error](https://github.com/ShivaShirsath/Kubuntu-On-Android/issues)
++ **if [error](https://github.com/ShivaShirsath/Ubuntu-On-Android/issues)**
 ```bash
 rm -rf /var/lib/dpkg/info/*.postinst
 sudo dpkg --configure -a
 ```
 
-## Install Desktop ( Any one of following [ eg. xfce4 ] )
++ **Install Desktop ( Any one of following [ eg. xfce4 ] )**
 
 | DESKTOP | Info | START-UP |
 | ---: | :---: | :--- |
@@ -77,7 +77,7 @@ sudo dpkg --configure -a
 sudo apt install `DESKTOP`	
 ```
 
-## Setting Virtual Network Computing ( VNC ) Server
++ **Setting Virtual Network Computing ( VNC ) Server**
 ```bash
 PWDx=$PWD
 cd $HOME
@@ -87,11 +87,12 @@ cd VNC
 bash install
 cd $PWDx
 ```
-## Use cammand to start or stop vnc 
++ **Use cammand to start or stop vnc**
 ```bash
 vnc 
 ```
-## Install VNC Viewer 
++ **Install VNC Viewer**
+
 <h1 align=center>
   <a href=https://play.google.com/store/apps/details?id=com.realvnc.viewer.android>
     ►
