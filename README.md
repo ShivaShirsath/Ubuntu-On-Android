@@ -46,7 +46,7 @@ echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
 ## Update & upgrade Ubuntu
 ```bash
-sudo apt update -y && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y && sudo apt install apt-utils -
 ```
 ## Install udisks2
 ```bash
