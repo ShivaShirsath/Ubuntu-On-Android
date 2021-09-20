@@ -74,16 +74,13 @@ sudo apt install `DESKTOP`
 
 ## Setting Virtual Network Computing ( VNC ) Server
 ```bash
-sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension tigervnc-viewer
-```
-## Run VNC Server & Open VNC Viewer
-```bash
-vncserver -xstartup `START-UP` -geometry 1800x900 :1
-```
-<!-- tigervncserver -xstartup /usr/bin/startkde -->
-## Stop & Close
-```bash
-vncserver -kill :*
+PWDx=$PWD
+cd $HOME
+rm -rf VNC
+git clone https://github.com/ShivaShirsath/VNC.git
+cd VNC
+bash install
+cd $PWDx
 ```
 ## Set password
 
@@ -94,9 +91,7 @@ vncserver -kill :*
   </a>
 </h1>
 
-## How to use VNC Viewer ?
-+ Open VNC Viewer
-+ Enter Password
-+ Set Quality to High 
-
+```bash
+vnc 
+```
 <h1 align=center>& N joy !</h1>
