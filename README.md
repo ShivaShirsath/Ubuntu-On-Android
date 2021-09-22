@@ -68,7 +68,7 @@ sudo dpkg --configure -a
 | ---: | :---: | --- |
 | `ubuntu-gnome-desktop` | Gnome | `gnome-session`|
 | `ubuntu-mate-desktop` | Mate | `mate-session`|
-| `kubuntu-desktop` | Kubuntu | `startkde` `startplasma-x11` |
+| `kubuntu-desktop` | Kubuntu | `startplasma-x11` |
 | `lxde` | Lightweight X11 | `startlxde`
 | `xfce4 xfce4-goodies` | X Forms Common | `startxfce4` |
 
