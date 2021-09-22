@@ -66,7 +66,7 @@ sudo dpkg --configure -a
 
 | DESKTOP | Info | START-UP |
 | ---: | :---: | :--- |
-| `ubuntu-desktop ` | Desktop |
+<!-- | `ubuntu-desktop ` | Desktop | -->
 | `ubuntu-gnome-desktop` | Gnome | `gnome-session`|
 | `ubuntu-mate-desktop` | Mate | `mate-session`|
 | `kubuntu-desktop` | Kubuntu | `startkde` `startplasma-x11` |
