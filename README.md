@@ -1,17 +1,19 @@
-<h1 align=center>Ubuntu On Android
-<br>
-  Install TermUX
-  <a href=https://f-droid.org/packages/com.termux>
-    ⇱ 
-  </a>
-  /
-  <a href=https://play.google.com/store/apps/details?id=com.termux>
-    ►
-  </a>
-</h1>
+<h1 align=center>Ubuntu On Android</h1>
 
 <ul>
-  <li>Update & upgrade TermUX & SetUp Storage</li>
+  <li>
+    <bold>
+      Update & upgrade TermUX
+      <a href=https://f-droid.org/packages/com.termux>
+        ⇱ 
+      </a>
+      /
+      <a href=https://play.google.com/store/apps/details?id=com.termux>
+        ►
+      </a>
+      & SetUp Storage
+    </bold>
+  </li>
 </ul> 
 
 ```bash
