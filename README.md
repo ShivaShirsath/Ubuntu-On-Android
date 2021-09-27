@@ -1,5 +1,5 @@
-<h1 align=center>Ubuntu On Android</h1>
-<h1 align=center> 
+<h1 align=center>Ubuntu On Android
+<br>
   <a href=https://play.google.com/store/apps/details?id=com.termux>
     Install ►
   </a>
