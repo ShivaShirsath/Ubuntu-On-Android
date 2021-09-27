@@ -66,11 +66,10 @@ sudo dpkg --configure -a
 
 | DESKTOP | Info | START-UP |
 | ---: | :---: | --- |
-| `ubuntu-gnome-desktop` | Gnome | `gnome-session`|
-| `ubuntu-mate-desktop` | Mate | `mate-session`|
-| `kubuntu-desktop` | Kubuntu | `startplasma-x11` |
-| `lxde` | Lightweight X11 | `startlxde`
-| `xfce4 xfce4-goodies` | X Forms Common | `startxfce4` |
+| `ubuntu-mate-desktop` | Mate Desktop | `mate-session`|
+| `kubuntu-desktop` | Kubuntu Desktop | `startplasma-x11` |
+| `lxde` | Lightweight X11 Desktop Environment | `startlxde`
+| `xfce4 xfce4-goodies` | X Forms Common Environment | `startxfce4` |
 
 ```bash
 sudo apt install `DESKTOP`	
