@@ -21,7 +21,7 @@ pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login
 + **Install sudo ( root / super user ) & Update & upgrade Ubuntu**
 ```bash
 apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install apt-utils -y
-```
+``` 
 <!--
 + Add User
 ```bash
