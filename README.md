@@ -10,7 +10,10 @@
   </a>
 </h1>
 
-+ **Update & upgrade TermUX & SetUp Storage**
+<ul>
+  <li>Update & upgrade TermUX & SetUp Storage</li>
+</ul> 
+
 ```bash
 pkg update -y && pkg upgrade -y &&ntermux-setup-storage
 ```
