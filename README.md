@@ -53,7 +53,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 | `kubuntu-desktop` | Kubuntu Desktop | `startplasma-x11` |
 | `lxde` | Lightweight X11 Desktop Environment | `startlxde`
 | `xfce4 xfce4-goodies` | X Forms Common Environment | `startxfce4` |
-
+ 
 ```bash
 sudo apt install `DESKTOP`	
 ```
