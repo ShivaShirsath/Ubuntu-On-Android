@@ -9,38 +9,24 @@
   </a>
 </h1>
 
-+ **Update & upgrade TermUX**
++ **Update & upgrade TermUX & SetUp Storage**
 ```bash
-pkg update -y && pkg upgrade -y
+pkg update -y && pkg upgrade -y &&ntermux-setup-storage
 ```
-+ **SetUp Storage**
-```bash
-termux-setup-storage
-```
-+ **Install [Proot-Distro](https://github.com/termux/proot-distro)**
++ **Install [Proot-Distro](https://github.com/termux/proot-distro) & Install Ubuntu CLI & Login to Ubuntu**
 ```bash
 pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
 ```
-+ **Install sudo ( root / super user )**
++ **Install sudo ( root / super user ) & Update & upgrade Ubuntu**
 ```bash
-apt update -y && apt install sudo -y
+apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install apt-utils -y
 ```
 <!--
-## Add User
++ Add User
 ```bash
-adduser <UserName>
+adduser <UserName> && echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```
-## Add Permission to user
-```bash
-echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
-```
--->
-
-+ **Update & upgrade Ubuntu**
-```bash
-sudo apt update -y && sudo apt upgrade -y && sudo apt install apt-utils -y
-```
-<!-- + **Install udisks2**
++ **Install udisks2**
 ```bash
 rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt install udisks2 -y && rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 ``` -->
@@ -55,7 +41,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 | `xfce4 xfce4-goodies` | X Forms Common Environment | `startxfce4` |
  
 ```bash
-sudo apt install `DESKTOP`	
+sudo apt install -y `DESKTOP` 
 ```
 
 + **Setting Virtual Network Computing ( VNC ) Server**
