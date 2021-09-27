@@ -2,7 +2,7 @@
 
 <ul>
   <li>
-    <bold>
+    <strong>
       Update & upgrade TermUX
       <a href=https://f-droid.org/packages/com.termux>
         ⇱ 
@@ -12,7 +12,7 @@
         ►
       </a>
       & SetUp Storage
-    </bold>
+    </stong>
   </li>
 </ul> 
 
