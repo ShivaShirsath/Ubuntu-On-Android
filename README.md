@@ -11,8 +11,7 @@
 
 + **Update & upgrade TermUX**
 ```bash
-pkg update -y
-pkg upgrade -y
+pkg update -y && pkg upgrade -y
 ```
 + **SetUp Storage**
 ```bash
@@ -20,20 +19,11 @@ termux-setup-storage
 ```
 + **Install [Proot-Distro](https://github.com/termux/proot-distro)**
 ```bash
-pkg install proot-distro -y
-```
-+ **Install Ubuntu CLI**
-```bash
-proot-distro install ubuntu
-```
-+ **Login in Ubuntu CLI**
-```bash
-proot-distro login ubuntu
+pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
 ```
 + **Install sudo ( root / super user )**
 ```bash
-apt update -y
-apt install sudo -y
+apt update -y && apt install sudo -y
 ```
 <!--
 ## Add User
@@ -48,18 +38,11 @@ echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
 + **Update & upgrade Ubuntu**
 ```bash
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt install apt-utils -y
+sudo apt update -y && sudo apt upgrade -y && sudo apt install apt-utils -y
 ```
 + **Install udisks2**
 ```bash
-sudo apt install udisks2 -y
-```
-+ **if [error](https://github.com/ShivaShirsath/Ubuntu-On-Android/issues)**
-```bash
-rm -rf /var/lib/dpkg/info/*.postinst
-sudo dpkg --configure -a
+rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt install udisks2 -y && rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 ```
 
 + **Install Desktop ( Any one of following [ eg. xfce4 ] )**
@@ -89,11 +72,10 @@ cd $PWDx
 ```bash
 vnc 
 ```
-+ **Install VNC Viewer**
 
-<h1 align=center>
+<h1 align=center> Install VNC Viewer => 
   <a href=https://play.google.com/store/apps/details?id=com.realvnc.viewer.android>
-    ►
+    Play Store
   </a>
 </h1>
 <h1 align=center>& N joy !</h1>
