@@ -1,11 +1,12 @@
 <h1 align=center>Ubuntu On Android
 <br>
-  <a href=https://play.google.com/store/apps/details?id=com.termux>
-    Install ►
+  Install TermUX
+  <a href=https://f-droid.org/packages/com.termux>
+    ⇱ 
   </a>
   /
-  <a href=https://f-droid.org/packages/com.termux>
-    ⇱ TermUX
+  <a href=https://play.google.com/store/apps/details?id=com.termux>
+    ►
   </a>
 </h1>
 
