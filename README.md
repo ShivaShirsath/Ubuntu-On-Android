@@ -41,9 +41,9 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   PWDx=$PWD && cd $HOME && rm -rf VNC && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx
   ```
 + **Use cammand to start or stop vnc**
-      ```bash
-      vnc 
-      ```
+  ```bash
+  vnc 
+  ```
 <h2 align=center>
   <a href=https://play.google.com/store/apps/details?id=com.realvnc.viewer.android>
     Install VNC Viewer
