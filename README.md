@@ -3,7 +3,7 @@
 + **Update & upgrade TermUX [⇱](https://f-droid.org/packages/com.termux) / [►](https://play.google.com/store/apps/details?id=com.termux) & SetUp Storage**
 
 ```bash
-pkg update -y && pkg upgrade -y &&ntermux-setup-storage
+pkg update -y && pkg upgrade -y && termux-setup-storage
 ```
 + **Install [Proot-Distro](https://github.com/termux/proot-distro) & Install Ubuntu CLI & Login to Ubuntu**
 ```bash
