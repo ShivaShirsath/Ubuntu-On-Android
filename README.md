@@ -50,10 +50,10 @@ cd $PWDx
 ```bash
 vnc 
 ```
-<h1 align=center>
+<h2 align=center>
   <a href=https://play.google.com/store/apps/details?id=com.realvnc.viewer.android>
     Install VNC Viewer
   </a>
   <br>
   & N joy !
-</h1>
+</h>
