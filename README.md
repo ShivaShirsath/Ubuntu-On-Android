@@ -52,7 +52,8 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   & N joy !
 </h>
 
-## Bonus
+<h1 align=right>Bonus</h1>
+
 ```json
 sudo apt install firefox -y # [ Mozilla ]
 # Indian Fonts [ हिंदी देवनागरी मराठी ગુજરાતી ਪੰਜਾਬੀ ಕನ್ನಡ മലയാളം తెలుగు ] … etc etc
