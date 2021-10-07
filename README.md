@@ -54,12 +54,11 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 
 ## Bonus
 ```json
-#[ Default Browser ( Mozilla )]
-sudo apt install firefox -y
-#[ Indian Fonts ( हिंदी, देवनागरी, मराठी, ગુજરાતી, ਪੰਜਾਬੀ, ಕನ್ನಡ, മലയാളം, తెలుగు, etc etc )]
+sudo apt install firefox -y #[ Mozilla ]
+#[ Indian Fonts : हिंदी देवनागरी मराठी ગુજરાતી ਪੰਜਾਬੀ ಕನ್ನಡ മലയാളം తెలుగు etc etc fonts ]
 sudo apt install fonts-indic -y
-#[ Emojies ( 😎, 😃, ❤, 😍, 😂, 👍, 😊, 🎉, … etc etc all )]
+#[ Emojies : 😎 😃 ❤ 😍 😂 👍 😊 🎉 … etc etc all ]
 sudo apt install fonts-emojione -y
-#[ Default Java ( java, javac, appletviewer, jar )]
+#[ java javac appletviewer jar ]
 sudo apt install openjdk-8-jdk -y
 ```
