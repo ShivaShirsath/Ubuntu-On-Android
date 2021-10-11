@@ -16,7 +16,7 @@
   ```
 + Logout 
   ```json
-  exit # Or [ Ctrl + d ]
+  exit # Or [ Ctrl+d ]
   ```
 + Desktop
   ```bash
