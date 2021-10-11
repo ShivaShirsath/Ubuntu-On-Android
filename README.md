@@ -11,7 +11,7 @@
   ```
 + **Install sudo ( root / super user ) & Update & upgrade Ubuntu**
   ```bash
-  apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y apt-utils dialog 
+  apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y apt-utils dialog git
   ``` 
 <!--
 + Add User
