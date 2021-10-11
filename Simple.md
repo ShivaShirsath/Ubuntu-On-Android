@@ -10,3 +10,11 @@
   ```bash
   sudo apt install -y xfce4 xfce4-goodies git firefox fonts-indic fonts-emojione openjdk-8-jdk && PWDx=$PWD && cd $HOME && rm -rf VNC && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx
   ```
++ Login 
+  ```bash
+  ubuntu
+  ``
++ Desktop
+  ```bash
+  vnc
+  ```
