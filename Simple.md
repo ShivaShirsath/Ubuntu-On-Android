@@ -13,7 +13,7 @@
 + Login 
   ```bash
   ubuntu
-  ``
+  ```
 + Desktop
   ```bash
   vnc
