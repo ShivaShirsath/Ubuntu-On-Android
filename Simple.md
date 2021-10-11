@@ -1,24 +1,24 @@
-+ TermUX Level
++ **TermUX Level**
   ```bash
   pkg update -y && pkg upgrade -y && pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
   ```
-+ CLI Level
++ **CLI Level**
   ```bash
   apt update -y && apt upgrade -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install dialog && adduser java && echo "java ALL=(ALL:ALL) ALL" >> /etc/sudoers && echo "proot-distro login --user java ubuntu" >> $PREFIX/bin/ubuntu && chmod +x $PREFIX/bin/ubuntu && login java
   ```
-+ GUI Level
++ **GUI Level**
   ```bash
   sudo apt install -y xfce4 xfce4-goodies git firefox fonts-indic fonts-emojione openjdk-8-jdk && PWDx=$PWD && cd $HOME && rm -rf VNC && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx
   ```
-+ Login 
++ **Login to ubuntu*
   ```bash
   ubuntu
   ```
-+ Logout 
++ **Logout**
   ```json
   exit # Or [ Ctrl+d ]
   ```
-+ Desktop
++ **Desktop**
   ```bash
   vnc
   ```
