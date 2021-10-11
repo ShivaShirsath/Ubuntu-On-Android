@@ -4,7 +4,7 @@
   ```
 + **CLI Level**
   ```bash
-  apt update -y && apt upgrade -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install dialog && adduser java && echo "java ALL=(ALL:ALL) ALL" >> /etc/sudoers && echo "proot-distro login --user java ubuntu" >> $PREFIX/bin/ubuntu && chmod +x $PREFIX/bin/ubuntu && login java
+  apt update -y && apt upgrade -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install dialog && adduser shiva && echo "shiva ALL=(ALL:ALL) ALL" >> /etc/sudoers && echo "proot-distro login --user shiva ubuntu" >> $PREFIX/bin/ubuntu && chmod +x $PREFIX/bin/ubuntu && login shiva
   ```
 + **GUI Level**
   ```bash
