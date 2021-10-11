@@ -14,6 +14,10 @@
   ```bash
   ubuntu
   ```
++ Logout 
+  ```json
+  exit # Or [ Ctrl + d ]
+  ```
 + Desktop
   ```bash
   vnc
