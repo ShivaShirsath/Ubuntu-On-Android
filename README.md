@@ -63,3 +63,5 @@ sudo apt install fonts-emojione -y
 # [ java javac appletviewer jar ]
 sudo apt install openjdk-8-jdk -y
 ```
+
+[SS](Simple.md)
