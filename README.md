@@ -68,5 +68,5 @@ sudo apt install openjdk-8-jdk -y
 
 + Install TermUX opener on Ubuntu
   ```bash
-  wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O $HOME/TermUX.desktop && chmod +x $HOME/TermUX.desktop
+  wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O $HOME/Desktop/TermUX.desktop && chmod +x $HOME/Desktop/TermUX.desktop
   ```
