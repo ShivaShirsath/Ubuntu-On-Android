@@ -45,11 +45,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   vnc 
   ```
 <h2 align=center>
-  <a href=https://play.google.com/store/apps/details?id=com.realvnc.viewer.android>
-    Install VNC Viewer
-  </a>
-  <br>
-  & N joy !
+  N joy !
 </h>
 
 <h1 align=right>Bonus</h1>
