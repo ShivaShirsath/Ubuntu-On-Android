@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=TermUX
+Exec=am start --user 0 -n com.termux/com.termux.app.TermuxActivity
+Icon=terminix
+Terminal=false
+StartupNotify=false
