@@ -48,7 +48,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   N joy !
 </h>
 
-<h1 align=right>Bonus</h1>
+<h5 align=right>Bonus</h5>
 
 ```json
 sudo apt install firefox -y # [ Mozilla ]
