@@ -23,9 +23,8 @@ adduser <UserName> && echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
 rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt install udisks2 -y && rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 ``` -->
 
-+ **Install Desktop ( Any one of following [ eg. xfce4 ] )**
 <details>
-<summary>Desktops</summary>
+<summary>Install Desktop ( Any one of following [ eg. xfce4 ] )</summary>
 <ul>
 <li><p><strong>Mate</strong></p>
 <ul>
