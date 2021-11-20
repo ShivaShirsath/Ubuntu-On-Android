@@ -26,37 +26,68 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 + **Install Desktop ( Any one of following [ eg. xfce4 ] )**
 <details>
 <summary>Desktops</summary>
-<table>
-<thead>
-<tr>
-<th style="text-align:right">DESKTOP</th>
-<th style="text-align:center">Info</th>
-<th>START-UP</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><code>ubuntu-mate-desktop</code></td>
-<td style="text-align:center">Mate</td>
-<td><code>mate-session</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><code>kubuntu-desktop</code></td>
-<td style="text-align:center">Kubuntu</td>
-<td><code>startplasma-x11</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><code>lxde</code></td>
-<td style="text-align:center">Light weight X11</td>
-<td><code>startlxde</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><code>xfce4 xfce4-goodies</code></td>
-<td style="text-align:center">X Forms Common</td>
-<td><code>startxfce4</code></td>
-</tr>
-</tbody>
-</table>
+
+<details>
+<summary>Mate</summary>
+
+
+<details>
+<summary>DESKTOP</summary>
+<code>ubuntu-mate-desktop</code></td>
+</details>
+
+<details>
+<summary>START-UP</summary>
+<code>mate-session</code>
+</details>
+
+</details>
+
+<details>
+<summary>Kubuntu</summary>
+
+<details>
+<summary>DESKTOP</summary>
+<code>kubuntu-desktop</code>
+</details>
+
+<details>
+<summary>START-UP</summary>
+<code>startplasma-x11</code>
+</details>
+
+</details>
+
+<details>
+<summary>Lightweight X11</summary>
+
+<details>
+<summary>DESKTOP</summary>
+<code>lxde</code>
+</details>
+
+<details>
+<summary>START-UP</summary>
+<code>startlxde</code>
+</details>
+
+</details>
+
+<details>
+<summary>X Forms Common</summary>
+
+<details>
+<summary>DESKTOP</summary>
+<code>xfce4 xfce4-goodies</code>
+</details>
+
+<details>
+<summary>START-UP</summary>
+<code>startxfce4</code>
+</details>
+
+</details>
+
 </details>
 
   ```bash
