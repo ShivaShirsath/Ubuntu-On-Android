@@ -24,7 +24,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 ``` -->
 
 <details>
-<summary>Install Desktop ( Any one of following [ eg. xfce4 ] )</summary>
+<summary>Install Desktop ( Any one of following )</summary>
 <ul>
 <li><p><strong>Mate</strong></p>
 <ul>
