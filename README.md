@@ -27,7 +27,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 <details>
 <summary>Desktops</summary>
 
-<details>
+&emsp;<details>
 <summary>Mate</summary>
 
 
@@ -43,7 +43,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 
 </details>
 
-<details>
+&emsp;<details>
 <summary>Kubuntu</summary>
 
 <details>
@@ -58,7 +58,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 
 </details>
 
-<details>
+&emsp;<details>
 <summary>Lightweight X11</summary>
 
 <details>
@@ -73,7 +73,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 
 </details>
 
-<details>
+&emsp;<details>
 <summary>X Forms Common</summary>
 
 <details>
