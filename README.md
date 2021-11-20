@@ -1,6 +1,6 @@
 <h1 align=center>Ubuntu On Android</h1>
 
-+ **Install TermUX [⇱](https://f-droid.org/packages/com.termux) / [►](https://play.google.com/store/apps/details?id=com.termux)**
++ **[Download](https://f-droid.org/packages/com.termux) / [Install](https://play.google.com/store/apps/details?id=com.termux) TermUX**
 + **Update & upgrade TermUX & SetUp Storage**
 
   ```bash
