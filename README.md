@@ -27,24 +27,24 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 <details>
 <summary>Desktops</summary>
 <details>
-&emsp;<summary>Mate</summary>
-&emsp;&emsp;DESKTOP&emsp;<code>ubuntu-mate-desktop</code><br>
+<summary>Mate</summary>
+&emsp;DESKTOP&emsp;<code>ubuntu-mate-desktop</code><br>
 &emsp;&emsp;START-UP&emsp;<code>mate-session</code>
 </details>
 </detail>
 <details>
-&emsp;<summary>Kubuntu</summary>
-&emsp;&emsp;DESKTOP&emsp;<code>kubuntu-desktop</code><br>
+<summary>Kubuntu</summary>
+&emsp;DESKTOP&emsp;<code>kubuntu-desktop</code><br>
 &emsp;&emsp;START-UP&emsp;<code>startplasma-x11</code>
 </details>
 <details>
-&emsp;<summary>Lightweight X11</summary>
-&emsp;&emsp;DESKTOP&emsp;<code>lxde</code><br>
+<summary>Lightweight X11</summary>
+&emsp;DESKTOP&emsp;<code>lxde</code><br>
 &emsp;&emsp;START-UP&emsp;<code>startlxde</code>
 </details>
 <details>
-&emsp;<summary>X Forms Common</summary>
-&emsp;&emsp;DESKTOP&emsp;<code>xfce4 xfce4-goodies</code><br>
+<summary>X Forms Common</summary>
+&emsp;DESKTOP&emsp;<code>xfce4 xfce4-goodies</code><br>
 &emsp;&emsp;START-UP&emsp;<code>startxfce4</code>
 </details>
 
