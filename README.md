@@ -24,14 +24,15 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 ``` -->
 
 + **Install Desktop ( Any one of following [ eg. xfce4 ] )**
-
+<details>
+<summary>Desktop</summary>
 | DESKTOP | Info | START-UP |
 | ---: | :---: | --- |
 | `ubuntu-mate-desktop` | Mate | `mate-session`|
 | `kubuntu-desktop` | Kubuntu | `startplasma-x11` |
 | `lxde` | Light weight X11 | `startlxde`
 | `xfce4 xfce4-goodies` | X Forms Common | `startxfce4` |
- 
+</details>
   ```bash
   sudo apt install -y `DESKTOP` 
   ```
