@@ -29,7 +29,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 | ---: | :---: | --- |
 | `ubuntu-mate-desktop` | Mate | `mate-session`|
 | `kubuntu-desktop` | Kubuntu | `startplasma-x11` |
-| `lxde` | Lightweight X11 | `startlxde`
+| `lxde` | Light weight X11 | `startlxde`
 | `xfce4 xfce4-goodies` | X Forms Common | `startxfce4` |
  
   ```bash
