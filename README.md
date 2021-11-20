@@ -40,7 +40,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   ```bash
   PWDx=$PWD && cd $HOME && rm -rf VNC && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx
   ```
-+ **Use cammand to start or stop vnc**
++ **cammand for start or stop vnc**
   ```bash
   vnc 
   ```
