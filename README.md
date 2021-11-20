@@ -25,14 +25,40 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 
 + **Install Desktop ( Any one of following [ eg. xfce4 ] )**
 <details>
-<summary>Desktop</summary>
-| DESKTOP | Info | START-UP |
-| ---: | :---: | --- |
-| `ubuntu-mate-desktop` | Mate | `mate-session`|
-| `kubuntu-desktop` | Kubuntu | `startplasma-x11` |
-| `lxde` | Light weight X11 | `startlxde`
-| `xfce4 xfce4-goodies` | X Forms Common | `startxfce4` |
+<summary>Desktops</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">DESKTOP</th>
+<th style="text-align:center">Info</th>
+<th>START-UP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><code>ubuntu-mate-desktop</code></td>
+<td style="text-align:center">Mate</td>
+<td><code>mate-session</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><code>kubuntu-desktop</code></td>
+<td style="text-align:center">Kubuntu</td>
+<td><code>startplasma-x11</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><code>lxde</code></td>
+<td style="text-align:center">Light weight X11</td>
+<td><code>startlxde</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><code>xfce4 xfce4-goodies</code></td>
+<td style="text-align:center">X Forms Common</td>
+<td><code>startxfce4</code></td>
+</tr>
+</tbody>
+</table>
 </details>
+
   ```bash
   sudo apt install -y `DESKTOP` 
   ```
