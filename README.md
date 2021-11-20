@@ -51,7 +51,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 
 <h5 align=right>Bonus</h5>
 
-```json
+```bash
 sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
 
 # [ Mozilla ] 
