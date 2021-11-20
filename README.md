@@ -1,16 +1,15 @@
 <h1 align=center>Ubuntu On Android</h1>
 
 **TermUX → [Download](https://f-droid.org/packages/com.termux) / [Install](https://play.google.com/store/apps/details?id=com.termux)**
-+ **Update & upgrade TermUX & SetUp Storage**
-
++ **Update & upgrade & SetUp Storage**
   ```bash
   pkg update -y && pkg upgrade -y && termux-setup-storage
   ```
-+ **Install [Proot-Distro](https://github.com/termux/proot-distro) & Install Ubuntu CLI & Login to Ubuntu**
++ **Install [Proot-Distro](https://github.com/termux/proot-distro) & Ubuntu CLI & Login to CLI**
   ```bash
   pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
   ```
-+ **Install sudo ( root / super user ) & Update & upgrade Ubuntu**
++ **Install sudo ( root / super user ) & Update & Upgrade**
   ```bash
   apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y apt-utils dialog git wget
   ``` 
@@ -26,12 +25,12 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 
 + **Install Desktop ( Any one of following [ eg. xfce4 ] )**
 
-  | DESKTOP | Information | START-UP |
-  | ---: | :---: | --- |
-  | `ubuntu-mate-desktop` | Mate | `mate-session`|
-  | `kubuntu-desktop` | Kubuntu | `startplasma-x11` |
-  | `lxde` | Lightweight X11 | `startlxde`
-  | `xfce4 xfce4-goodies` | X Forms Common | `startxfce4` |
+| DESKTOP | Information | START-UP |
+| ---: | :---: | --- |
+| `ubuntu-mate-desktop` | Mate | `mate-session`|
+| `kubuntu-desktop` | Kubuntu | `startplasma-x11` |
+| `lxde` | Lightweight X11 | `startlxde`
+| `xfce4 xfce4-goodies` | X Forms Common | `startxfce4` |
  
   ```bash
   sudo apt install -y `DESKTOP` 
@@ -49,15 +48,15 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   N joy !
 </h>
 
-<h5 align=right>Bonus</h5>
+<h5 align=right>Bonus 🥳</h5>
 
 ```bash
 sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
 
-# [ Mozilla ] 
-# Indian Fonts [ हिंदी देवनागरी मराठी ગુજરાતી ਪੰਜਾਬੀ ಕನ್ನಡ മലയാളം తెలుగు ] … etc etc
-# Emojies [ 😎 😃 ❤ 😍 😂 👍 😊 🎉 ] … etc etc
-# [ java javac appletviewer jar ]
+# Mozilla
+# Indian Fonts - हिंदी, देवनागरी, मराठी, ગુજરાતી, ਪੰਜਾਬੀ, ಕನ್ನಡ, മലയാളം, తెలుగు, … etc, etc.
+# Emojies - 😎, 😃, ❤, 😍, 😂, 👍, 😊, 🎉 … etc, etc.
+# java, javac, appletviewer, jar … etc, etc.
 ```
 
 [SS](Simple.md)
