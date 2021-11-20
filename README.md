@@ -29,26 +29,26 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 <ul>
 <li><p><strong>Mate</strong></p>
 <ul>
-<li>DESKTOP&emsp;<code>ubuntu-mate-desktop</code></li>
-<li>START-UP&emsp;<code>mate-session</code></li>
+<li>DESKTOP<code>ubuntu-mate-desktop</code></li>
+<li>START-UP<code>mate-session</code></li>
 </ul>
 </li>
 <li><p><strong>Kubuntu</strong></p>
 <ul>
-<li>DESKTOP&emsp;<code>kubuntu-desktop</code></li>
-<li>START-UP&emsp;<code>startplasma-x11</code></li>
+<li>DESKTOP<code>kubuntu-desktop</code></li>
+<li>START-UP<code>startplasma-x11</code></li>
 </ul>
 </li>
 <li><p><strong>Light weight X11</strong></p>
 <ul>
-<li>DESKTOP&emsp;<code>lxde</code></li>
-<li>START-UP&emsp;<code>startlxde</code></li>
+<li>DESKTOP<code>lxde</code></li>
+<li>START-UP<code>startlxde</code></li>
 </ul>
 </li>
 <li><p><strong>X Forms Common</strong></p>
 <ul>
-<li>DESKTOP&emsp;<code>xfce4 xfce4-goodies</code></li>
-<li>START-UP&emsp;<code>startxfce4</code></li>
+<li>DESKTOP<code>xfce4 xfce4-goodies</code></li>
+<li>START-UP<code>startxfce4</code></li>
 </ul>
 </li>
 </ul>
