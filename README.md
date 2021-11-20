@@ -12,7 +12,7 @@
   ```
 + **Install sudo ( root / super user ) & Update & upgrade Ubuntu**
   ```bash
-  apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y apt-utils dialog git
+  apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y apt-utils dialog git wget
   ``` 
 <!--
 + Add User
@@ -52,18 +52,17 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 <h5 align=right>Bonus</h5>
 
 ```json
-sudo apt install firefox -y # [ Mozilla ]
+sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
+
+# [ Mozilla ] 
 # Indian Fonts [ हिंदी देवनागरी मराठी ગુજરાતી ਪੰਜਾਬੀ ಕನ್ನಡ മലയാളം తెలుగు ] … etc etc
-sudo apt install fonts-indic -y
 # Emojies [ 😎 😃 ❤ 😍 😂 👍 😊 🎉 ] … etc etc
-sudo apt install fonts-emojione -y
 # [ java javac appletviewer jar ]
-sudo apt install openjdk-8-jdk -y
 ```
 
 [SS](Simple.md)
 
 + Install TermUX opener on Ubuntu
   ```bash
-  sudo apt install wget && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O $HOME/Desktop/TermUX.desktop && chmod +x $HOME/Desktop/TermUX.desktop
+  wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O $HOME/Desktop/TermUX.desktop && chmod +x $HOME/Desktop/TermUX.desktop
   ```
