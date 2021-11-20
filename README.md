@@ -27,7 +27,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 <details>
 <summary>Desktops</summary>
 <details>
-<summary>Mate</summary>
+&emsp;<summary>Mate</summary>
 &emsp;DESKTOP&emsp;<code>ubuntu-mate-desktop</code><br>
 &emsp;&emsp;START-UP&emsp;<code>mate-session</code>
 </details>
