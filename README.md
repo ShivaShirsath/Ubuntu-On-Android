@@ -24,7 +24,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 ``` -->
 
 <details>
-<summary>Install Desktop ( Any one of following )</summary>
+<summary> DESKTOP </summary>
 <ul>
 <li><p><strong>Mate</strong></p>
 <ul>
@@ -70,16 +70,19 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   N joy !
 </h>
 
-<h5 align=right>Bonus 🥳</h5>
+<details>
 
-```bash
+<summary>Install<h5 align=right>Bonus 🥳</h5></summary>
+
+<code>
 sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
 
 # Mozilla
 # Indian Fonts - हिंदी, देवनागरी, मराठी, ગુજરાતી, ਪੰਜਾਬੀ, ಕನ್ನಡ, മലയാളം, తెలుగు, … etc, etc.
 # Emojies - 😎, 😃, ❤, 😍, 😂, 👍, 😊, 🎉 … etc, etc.
 # java, javac, appletviewer, jar … etc, etc.
-```
+</code>
+</details>
 
 [SS](Simple.md)
 
