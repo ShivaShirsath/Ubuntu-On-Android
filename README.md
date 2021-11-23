@@ -71,15 +71,14 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 <details>
 
 <summary>Bonus 🥳</summary>
-<p>
-<code>
-sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
+<pre><code class="lang-bash">sudo apt install -y firefox fonts-indic fonts-emojione openjdk<span class="hljs-number">-8</span>-jdk
 
-# Mozilla
-# Indian Fonts - हिंदी, देवनागरी, मराठी, ગુજરાતી, ਪੰਜਾਬੀ, ಕನ್ನಡ, മലയാളം, తెలుగు, … etc, etc.
-# Emojies - 😎, 😃, ❤, 😍, 😂, 👍, 😊, 🎉 … etc, etc.
-# java, javac, appletviewer, jar … etc, etc.
-</code></p>
+<span class="hljs-meta"># Mozilla</span>
+<span class="hljs-meta"># Indian Fonts - हिंदी, देवनागरी, मराठी, ગુજરાતી, ਪੰਜਾਬੀ, ಕನ್ನಡ, മലയാളം, తెలుగు, … etc, etc.</span>
+<span class="hljs-meta"># Emojies - 😎, 😃, ❤, 😍, 😂, 👍, 😊, 🎉 … etc, etc.</span>
+<span class="hljs-meta"># java, javac, appletviewer, jar … etc, etc.</span>
+</code></pre>
+
 </details>
 
 [SS](Simple.md)
