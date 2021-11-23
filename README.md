@@ -98,7 +98,7 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 ###### vnc
 <details>
     <summary>
-        Virtual Network Computing ( VNC ) Server
+        Virtual Network Computing ( <code>vnc</code> ) Server
     </summary>
     <pre>
 <code class="lang-bash">
@@ -111,11 +111,6 @@ bash install
 cd $PWDx
 </code>
 </pre>
-    <br>
-<code class="lang-bash">
-vnc
-</code>
-
 </details>
 <details>
     <summary>
