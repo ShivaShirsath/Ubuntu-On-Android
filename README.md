@@ -134,14 +134,11 @@ sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
     <summary>
         Launchers
     </summary>
-    <details>
-        <summary>
-            TermUX opener
-        </summary>
-        <pre>
-            <code class="lang-bash">
-                wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O  $HOME/Desktop/TermUX.desktop && chmod +x $HOME/Desktop/TermUX.desktop
-            </code>
-        </pre>
-    </details>
+TermUX opener
+<pre>
+<code class="lang-bash">
+wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O  $HOME/Desktop/TermUX.desktop
+chmod +x $HOME/Desktop/TermUX.desktop
+</code>
+</pre>
 </details>
