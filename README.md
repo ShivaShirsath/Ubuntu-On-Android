@@ -101,16 +101,16 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
         Virtual Network Computing ( VNC ) Server
     </summary>
     <ul>
-        <li><pre>
+        <pre>
 <code class="lang-bash">
     PWDx=$PWD && cd $HOME && rm -rf VNC && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx
 </code>
-        </pre></li>
-        <li><pre>        
+        </pre>
+        <pre>        
 <code class="lang-bash">
     vnc
 </code>
-        </pre></li>
+        </pre>
     <details>
         <summary>
             Installation
