@@ -89,16 +89,14 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
             </ul>
         </li>
     </ul>
-    <pre>
-        <code class="lang-bash">
-            sudo apt install -y `DESKTOP
-        </code>
-    </pre>
+<code class="lang-bash">
+    sudo apt install -y `DESKTOP
+</code>
 </details>
 ###### vnc
 <details>
     <summary>
-        Virtual Network Computing ( <code>vnc</code> ) Server
+        Virtual Network Computing ( <code>vnc</code> Server )
     </summary>
     <pre>
 <code class="lang-bash">
@@ -129,7 +127,11 @@ sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
 </code>
 </pre>
 </details>
+
+
 [SS](Simple.md)
+
+
 <details>
     <summary>
         Launchers
