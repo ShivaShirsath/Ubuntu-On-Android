@@ -66,10 +66,8 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
   ```bash
   vnc 
   ```
-<h2 align=center>
-  N joy !
-</h>
-<br>
+  
+
 <details>
 
 <summary>Bonus 🥳</summary>
