@@ -127,14 +127,14 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
     </summary>
 <pre>
 <code class="lang-bash">
-    sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
-    <br>
-    <span class="hljs-meta">
-        # Mozilla
-        # Indian Fonts - हिंदी, देवनागरी, मराठी, ગુજરાતી, ਪੰਜਾਬੀ, ಕನ್ನಡ, മലയാളം, తెలుగు, … etc, etc.
-        # Emojies - 😎, 😃, ❤, 😍, 😂, 👍, 😊, 🎉 … etc, etc.
-        # java, javac, appletviewer, jar … etc, etc.
-    </span>
+sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
+<br>
+<span class="hljs-meta">
+# Mozilla
+# Indian Fonts - हिंदी, देवनागरी, मराठी, ગુજરાતી, ਪੰਜਾਬੀ, ಕನ್ನಡ, മലയാളം, తెలుగు, … etc, etc.
+# Emojies - 😎, 😃, ❤, 😍, 😂, 👍, 😊, 🎉 … etc, etc.
+# java, javac, appletviewer, jar … etc, etc.
+</span>
 </code>
 </pre>
 </details>
