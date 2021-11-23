@@ -69,10 +69,10 @@ rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt ins
 <h2 align=center>
   N joy !
 </h>
-
+<br>
 <details>
 
-<summary align=right>Bonus 🥳</summary>
+<summary>Bonus 🥳</summary>
 <p>
 <code>
 sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
