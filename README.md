@@ -34,7 +34,6 @@ adduser <UserName> && echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```bash
 rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a && sudo apt install udisks2 -y && rm -rf /var/lib/dpkg/info/*.postinst && sudo dpkg --configure -a
 ```
--->
 <details>
     <summary>
         DESKTOP
@@ -114,6 +113,7 @@ cd $PWDx
 </code>
 </pre>
 </details>
+-->
 <details>
     <summary>
         Bonus 🥳
