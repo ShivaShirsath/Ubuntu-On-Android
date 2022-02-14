@@ -18,10 +18,14 @@ pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login
 + **Install sudo ( root / super user ) & Update & Upgrade**
 
 ```bash
-apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y apt-utils dialog git wget
+
 ```
 
 <!--
+```bash
+apt update -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y apt-utils dialog git wget
+```
+
 + Add User
 ```bash
 adduser <UserName> && echo "<UserName> ALL=(ALL:ALL) ALL" >> /etc/sudoers
