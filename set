@@ -1,0 +1,101 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+
+clear
+
+# This script will configure a graphical user interface
+# (xfce4) in termux
+# Creator : @ShivaShirsath
+cd $HOME
+
+echo -e '\e[1;36m Installing packages, it is necessary\e[1m'
+echo ''
+echo -e '\e[1;31m Download speed depends on your internet connection \e[1m'
+
+sleep 1
+
+clear
+
+echo -e '\e[1;36m Installing xfce4 and basic apps...\e[1m'
+
+sleep 1
+
+apt update -y && apt upgrade -y
+apt install -y wget
+rm /data/data/com.termux/files/usr/etc/apt/sources.list.d/termux-desktop-xfce.list
+wget -P /data/data/com.termux/files/usr/etc/apt/sources.list.d https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/gh-pages/termux-desktop-xfce.list
+apt install -y x11-repo
+apt update -y
+apt install -y xfce4 xfce4-goodies termux-desktop-xfce florence firefox fish
+
+# ln -s $HOME/storage/shared/AppProjects AppProjects
+
+apt install git -y
+
+echo "removing theme..."
+
+rm -rf /usr/share/icons
+rm -rf /usr/share/themes
+rm -rf /usr/share/backgrounds
+
+mkdir /usr/share/backgrounds
+
+echo "Installing theme..."
+
+PWDx=$PWD
+cd /usr/share/
+wget https://github.com/ShivaShirsath/termux-desktop/raw/main/icons.tar.xz
+wget https://github.com/ShivaShirsath/termux-desktop/raw/main/themes.tar.xz
+tar -xvf icons.tar.xz
+tar -xvf themes.tar.xz
+cd /usr/share/backgrounds
+wget https://github.com/ShivaShirsath/termux-desktop/raw/main/bg_android.jpg
+cd $PWDx
+
+echo "Setting Config..."
+
+rm -rf $HOME/.backup
+mkdir $HOME/.backup
+mv $HOME/.config $HOME/.backup
+mv $HOME/.vnc $HOME/.backup
+cd $HOME
+wget https://github.com/ShivaShirsath/termux-desktop/raw/main/.vnc.tar.xz
+tar -xvf .vnc.tar.xz
+rm -rf .config
+wget https://github.com/ShivaShirsath/termux-desktop/raw/main/.config.tar.xz
+tar -xvf .config.tar.xz
+
+apt update -y
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+apt upgrade -y
+apt autoremove -y
+
+echo -e "${R} [${W}-${R}]${C} Installing Visual Studio..."${W}
+
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt install apt-transport-https -y
+sudo apt update -y
+sudo apt install code -y
+
+PWDx=$PWD
+cd $HOME
+rm -rf VNC
+git clone https://github.com/ShivaShirsath/VNC.git
+cd VNC
+chmod +x *
+bash install
+cd $PWDx
+
+echo "setup folders..."
+
+mkdir $HOME/Desktop
+mkdir $HOME/Downloads
+mkdir $HOME/Templates
+mkdir $HOME/Public
+mkdir $HOME/Documents
+mkdir $HOME/Pictures l
+mkdir $HOME/Videos
+termux-setup-storage
+
+exit
