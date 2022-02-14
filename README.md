@@ -18,7 +18,7 @@ pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login
 + **Install sudo ( root / super user ) & Update & Upgrade**
 
 ```bash
-
+cd ~ && apt install wget && rm -rf set && wget  && chmod +x set && bash set
 ```
 
 <!--
