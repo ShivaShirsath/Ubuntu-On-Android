@@ -106,9 +106,10 @@ mkdir $HOME/Downloads
 mkdir $HOME/Templates
 mkdir $HOME/Public
 mkdir $HOME/Documents
-mkdir $HOME/Pictures l
+mkdir $HOME/Pictures
 mkdir $HOME/Videos
 
-termux-setup-storage
+wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O  $HOME/Desktop/TermUX.desktop
+chmod +x $HOME/Desktop/*
 
 exit
