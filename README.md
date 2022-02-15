@@ -9,7 +9,7 @@
 pkg update -y && pkg upgrade -y && termux-setup-storage && pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
 ```
 
-+ **Install sudo ( root / super user ) & Update & Upgrade**
++ **Ubuntu GUI ( xfce4 )**
 
 ```bash
 cd ~ && sudo apt install -y wget git fonts-indic fonts-emojione && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && sudo bash set
