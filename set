@@ -25,13 +25,11 @@ rm /data/data/com.termux/files/usr/etc/apt/sources.list.d/termux-desktop-xfce.li
 wget -P /data/data/com.termux/files/usr/etc/apt/sources.list.d https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/gh-pages/termux-desktop-xfce.list
 apt install -y x11-repo
 apt update -y
-apt install -y xfce4 xfce4-goodies termux-desktop-xfce florence firefox fish
+apt install -y xfce4 xfce4-goodies termux-desktop-xfce florence firefox fish git
 
-# ln -s $HOME/storage/shared/AppProjects AppProjects
-
-apt install git -y
-
-echo "removing theme..."
+echo ""
+echo "Removing theme..."
+echo ""
 
 rm -rf /usr/share/icons
 rm -rf /usr/share/themes
@@ -39,7 +37,9 @@ rm -rf /usr/share/backgrounds
 
 mkdir /usr/share/backgrounds
 
+echo ""
 echo "Installing theme..."
+echo ""
 
 PWDx=$PWD
 cd /usr/share/
@@ -51,7 +51,9 @@ cd /usr/share/backgrounds
 wget https://github.com/ShivaShirsath/termux-desktop/raw/main/bg_android.jpg
 cd $PWDx
 
+echo ""
 echo "Setting Config..."
+echo ""
 
 rm -rf $HOME/.backup
 mkdir $HOME/.backup
@@ -69,7 +71,9 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
 apt upgrade -y
 apt autoremove -y
 
+echo ""
 echo -e "${R} [${W}-${R}]${C} Installing Visual Studio..."${W}
+echo ""
 
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
@@ -87,7 +91,9 @@ chmod +x *
 bash install
 cd $PWDx
 
-echo "setup folders..."
+echo ""
+echo "Setup folders..."
+echo ""
 
 mkdir $HOME/Desktop
 mkdir $HOME/Downloads
@@ -96,6 +102,7 @@ mkdir $HOME/Public
 mkdir $HOME/Documents
 mkdir $HOME/Pictures l
 mkdir $HOME/Videos
+
 termux-setup-storage
 
 exit
