@@ -6,7 +6,7 @@
 + **Install [Proot-Distro](https://github.com/termux/proot-distro) & Ubuntu CLI & Login to CLI**
 
 ```bash
-pkg update -y && pkg upgrade -y && termux-setup-storage && pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
+pkg update -y && pkg upgrade -y && termux-setup-storage && pkg install proot-distro -y && proot-distro install ubuntu &&  echo "proot-distro login ubuntu" >> /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && ubuntu && proot-distro login ubuntu
 ```
 
 + **Ubuntu GUI ( xfce4 )**
