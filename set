@@ -54,7 +54,7 @@ wget https://github.com/ShivaShirsath/termux-desktop/raw/main/themes.tar.xz
 tar -xvf icons.tar.xz
 tar -xvf themes.tar.xz
 cd /usr/share/backgrounds
-wget https://github.com/ShivaShirsath/termux-desktop/raw/main/bg_android.jpg
+wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/WhiteSur.svg
 cd $PWDx
 
 echo ""
