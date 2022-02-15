@@ -12,7 +12,7 @@ pkg update -y && pkg upgrade -y && termux-setup-storage && pkg install proot-dis
 + **Install sudo ( root / super user ) & Update & Upgrade**
 
 ```bash
-cd ~ && apt install -y wget git fonts-indic fonts-emojione && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && bash set
+cd ~ && sudo apt install -y wget git fonts-indic fonts-emojione && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && sudo bash set
 ```
 
 <!--
@@ -107,7 +107,7 @@ cd $PWDx
 </code>
 </pre>
 </details>
--->
+
 <details>
     <summary>
         Bonus 🥳
@@ -126,7 +126,7 @@ sudo apt install -y firefox fonts-indic fonts-emojione openjdk-8-jdk
 </pre>
 </details>
 
-
+-->
 [SS](Simple.md)
 
 
