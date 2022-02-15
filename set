@@ -21,7 +21,7 @@ sleep 1
 
 apt update -y && apt upgrade -y
 apt update -y
-apt install -y dailog fish git wget
+apt install -y dialog fish git wget
 apt install -y xfce4 xfce4-goodies firefox
 /data/data/com.termux/files/usr/bin/apt install -y florence
 
