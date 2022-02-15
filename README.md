@@ -6,13 +6,12 @@
 + **Update & upgrade & SetUp Storage**
 
 ```bash
-pkg update -y && pkg upgrade -y && termux-setup-storage
-```
+
 
 + **Install [Proot-Distro](https://github.com/termux/proot-distro) & Ubuntu CLI & Login to CLI**
 
 ```bash
-pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
+pkg update -y && pkg upgrade -y && termux-setup-storage && pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
 ```
 
 + **Install sudo ( root / super user ) & Update & Upgrade**
