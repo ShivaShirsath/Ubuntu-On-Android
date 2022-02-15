@@ -66,11 +66,13 @@ mkdir $HOME/.backup
 mv $HOME/.config $HOME/.backup
 mv $HOME/.vnc $HOME/.backup
 cd $HOME
-wget https://github.com/ShivaShirsath/termux-desktop/raw/main/.vnc.tar.xz
+wget https://github.com/ShivaShirsath/Ubuntu-On-Android/raw/main/.vnc.tar.xz
 tar -xvf .vnc.tar.xz
 rm -rf .config
-wget https://github.com/ShivaShirsath/termux-desktop/raw/main/.config.tar.xz
+wget https://github.com/ShivaShirsath/Ubuntu-On-Android/raw/main/.config.tar.xz
 tar -xvf .config.tar.xz
+rm -rf .vnc.tar.xz
+rm -rf .config.tar.xz
 
 apt update -y
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
