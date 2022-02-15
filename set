@@ -20,12 +20,9 @@ echo -e '\e[1;36m Installing xfce4 and basic apps...\e[1m'
 sleep 1
 
 apt update -y && apt upgrade -y
-apt install -y wget
-rm /data/data/com.termux/files/usr/etc/apt/sources.list.d/termux-desktop-xfce.list
-wget -P /data/data/com.termux/files/usr/etc/apt/sources.list.d https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/gh-pages/termux-desktop-xfce.list
-apt install -y x11-repo
 apt update -y
-apt install -y xfce4 xfce4-goodies termux-desktop-xfce florence firefox fish git
+apt install -y dailog fish git wget
+apt install -y xfce4 xfce4-goodies firefox
 
 echo ""
 echo "Removing theme..."
