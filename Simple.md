@@ -1,6 +1,6 @@
 + **TermUX Level**
   ```bash
-  pkg update -y && pkg upgrade -y && pkg install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
+  pkg update -y && pkg upgrade -y && pkg install proot-distro -y && proot-distro install ubuntu && PWDx=$PWD && cd $HOME && rm -rf VNC && apt install -y git && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx && proot-distro login ubuntu
   ```
 + **CLI Level**
   ```bash
