@@ -4,12 +4,12 @@
   ```
 + **CLI Level**
   ```bash
-  apt update -y && apt upgrade -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install dialog && adduser shiva && echo "shiva ALL=(ALL:ALL) ALL" >> /etc/sudoers && echo "proot-distro login --user shiva ubuntu" >> $PREFIX/bin/ubuntu && chmod +x $PREFIX/bin/ubuntu && login shiva
+  apt update -y && apt upgrade -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install dialog && adduser shiva && echo "shiva ALL=(ALL:ALL) ALL" >> /etc/sudoers && echo "proot-distro login --user shiva ubuntu" >> /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && login shiva
   ```
 + **GUI Level**
 
   ```bash
-  cd ~ && apt install -y wget git fonts-indic fonts-emojione openjdk-8-jdk && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && bash set
+  cd ~ && apt install -y wget git fonts-indic fonts-emojione && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && bash set
   ```
 
 <!--
