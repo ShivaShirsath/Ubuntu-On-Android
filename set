@@ -121,6 +121,8 @@ sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/p
 INSTALL apt-transport-https
 sudo apt update -y
 INSTALL code
+wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/code.desktop -O /usr/share/applications/code.desktop
+chmod +x /usr/share/applications/*
 
 #PWDx=$PWD
 #cd $HOME
@@ -142,7 +144,7 @@ mkdir $HOME/Documents
 mkdir $HOME/Pictures
 mkdir $HOME/Videos
 
-wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O  $HOME/Desktop/TermUX.desktop
+wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/TermUX.desktop -O $HOME/Desktop/TermUX.desktop
 chmod +x $HOME/Desktop/*
 
 dialog --colors --title "👍" --ok-label "‎     Enjoy 🥳    " --msgbox "\nAll Done! \n\nUse \Z0\Zr‎ ubuntu ‎‎\ZR\Z0 cammand for login to CLI.\n\nUse \Z0\Zr‎ vnc ‎\ZR\Z0 cammand on CLI to start GUI.\n\n" 0 0
