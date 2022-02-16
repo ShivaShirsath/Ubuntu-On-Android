@@ -4,7 +4,7 @@
   ```
 + **CLI Level**
   ```bash
-  apt update -y && apt upgrade -y && apt install sudo -y && sudo apt update -y && sudo apt upgrade -y && sudo apt install dialog && adduser shiva && echo "shiva ALL=(ALL:ALL) ALL" >> /etc/sudoers && echo "proot-distro login --user shiva ubuntu" >> /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && login shiva
+  apt update -y && apt upgrade -y && apt install -y sudo && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y dialog && adduser shiva && echo "shiva ALL=(ALL:ALL) ALL" >> /etc/sudoers && echo "proot-distro login --user shiva ubuntu" >> /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && login shiva
   ```
 + **GUI Level**
 
