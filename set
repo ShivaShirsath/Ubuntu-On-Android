@@ -30,7 +30,7 @@ sleep 1
 
 echo ""
 
-sudo apt install -y wget
+apt install -y sudo wget apt-utils
 
 sudo apt update -y
 sudo apt upgrade -y
