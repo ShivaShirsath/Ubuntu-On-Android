@@ -15,7 +15,7 @@ pkg update -y && pkg upgrade -y && termux-setup-storage && pkg install -y proot-
 cd ~ && sudo apt install -y wget git && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && sudo bash set
 ```
 
-+ **Login to ubuntu**
++ **Login**
   ```bash
   ubuntu
   ```
