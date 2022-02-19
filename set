@@ -102,17 +102,17 @@ mv $HOME/.vnc $HOME/.backup
 
 cd $HOME
 
-rm -rf .vnc.tar.xz
-rm -rf .config.tar.xz
+rm -rf .vnc.tar.gz
+rm -rf .config.tar.gz
 
-wget https://github.com/ShivaShirsath/Ubuntu-On-Android/raw/main/.vnc.tar.xz
-wget https://github.com/ShivaShirsath/Ubuntu-On-Android/raw/main/.config.tar.xz
+wget https://github.com/ShivaShirsath/Ubuntu-On-Android/raw/main/.vnc.tar.gz
+wget https://github.com/ShivaShirsath/Ubuntu-On-Android/raw/main/.config.tar.gz
 
-tar -xvf .vnc.tar.xz
-tar -xvf .config.tar.xz
+tar zxvf .vnc.tar.gz
+tar zxvf .config.tar.gz
 
-rm -rf .vnc.tar.xz
-rm -rf .config.tar.xz
+rm -rf .vnc.tar.gz
+rm -rf .config.tar.gz
 
 sudo apt update -y
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
