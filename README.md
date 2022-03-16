@@ -1,5 +1,6 @@
-|![dark](https://user-images.githubusercontent.com/59221352/158586711-71117de5-ed37-415c-9620-a54fd5d5de90.jpg)|![light](https://user-images.githubusercontent.com/59221352/158586852-1c1fec70-3698-44e3-82ce-a884008540c9.jpg)|
 |---|---|
+|![dark](https://user-images.githubusercontent.com/59221352/158586711-71117de5-ed37-415c-9620-a54fd5d5de90.jpg)|![light](https://user-images.githubusercontent.com/59221352/158586852-1c1fec70-3698-44e3-82ce-a884008540c9.jpg)|
+
 <h1 align=center>Ubuntu On Android</h1>
 
 **TermUX → [Download](https://f-droid.org/packages/com.termux) /
