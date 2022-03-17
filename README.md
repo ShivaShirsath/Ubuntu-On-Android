@@ -1,7 +1,9 @@
 <h1 align=center>Ubuntu On Android</h1>
 
-![dark](https://user-images.githubusercontent.com/59221352/158588323-e051658f-a71f-47f6-bd19-0fe984c97e28.jpg)
-![light](https://user-images.githubusercontent.com/59221352/158586852-1c1fec70-3698-44e3-82ce-a884008540c9.jpg)
+<h1>
+  <img src=https://user-images.githubusercontent.com/59221352/158588323-e051658f-a71f-47f6-bd19-0fe984c97e28.jpg width=100% height=100%></img><br>
+<img src=https://user-images.githubusercontent.com/59221352/158586852-1c1fec70-3698-44e3-82ce-a884008540c9.jpg width=100% height=100%></img>
+</h1>
 
 **TermUX → [Download](https://f-droid.org/packages/com.termux) /
 [Install](https://play.google.com/store/apps/details?id=com.termux)**
