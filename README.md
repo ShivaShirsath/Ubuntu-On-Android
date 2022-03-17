@@ -24,7 +24,10 @@ cd ~ && sudo apt install -y wget dialog git && rm -rf set && wget https://raw.gi
   ```
 + **Logout**
   ```json
-  exit # Or [ Ctrl+d ]
+  exit
+  ```
+  ```json
+  [ Ctrl+d ]
   ```
 + **Desktop**
   ```bash
