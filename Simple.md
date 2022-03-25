@@ -4,7 +4,7 @@
   ```
 + **CLI Level**
   ```bash
-  clear && apt update -y && apt upgrade -y && apt install -y sudo && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y dialog && read -p $'\e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Username \e[1;91m[ \e[1;93mlowercase \e[1;91m]\e[1;92m :\e[0m\e[1;96m\en' user && echo -e "${W}" && echo "$user ALL=(ALL:ALL) ALL" >> /etc/sudoers && adduser $user && echo "proot-distro login --user $user ubuntu" > /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && login $user
+  clear && apt update -y && apt upgrade -y && apt install -y sudo && sudo apt update -y && sudo apt upgrade -y && sudo apt install -y dialog && read -p $'\e[1;31m[\e[0m\e[1;93m●\e[0m\e[1;31m]\e[0m\e[1;92m User Name \e[1;91m[ \e[1;93mlower case \e[1;91m]\e[1;92m :\e[0m\e[1;96m\en' user && echo -e "${W}" && echo "$user ALL=(ALL:ALL) ALL" >> /etc/sudoers && adduser $user && echo "proot-distro login --user $user ubuntu" > /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && login $user
   ```
 + **GUI Level**
 
