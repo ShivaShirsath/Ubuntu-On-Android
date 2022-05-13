@@ -1,4 +1,4 @@
-<h1 align=center>Ubuntu On Android</h1>
+<h1 align=center> Ubuntu On Android </h1>
 
 # ![dark](https://user-images.githubusercontent.com/59221352/158588323-e051658f-a71f-47f6-bd19-0fe984c97e28.jpg)
 # ![light](https://user-images.githubusercontent.com/59221352/158586852-1c1fec70-3698-44e3-82ce-a884008540c9.jpg)
