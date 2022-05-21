@@ -9,7 +9,7 @@
 + **Install [Proot-Distro](https://github.com/termux/proot-distro) & Ubuntu CLI & Login to CLI**
 
 ```bash
-pkg update -y && pkg upgrade -y && termux-setup-storage && pkg install -y proot-distro git && proot-distro install ubuntu && echo "proot-distro login ubuntu" > /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && PWDx=$PWD && cd $HOME && rm -rf VNC && apt install -y git && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx && ubuntu
+apt update -y && apt upgrade -y && termux-setup-storage && apt install -y proot-distro git && proot-distro install ubuntu && echo "proot-distro login ubuntu" > /data/data/com.termux/files/usr/bin/ubuntu && chmod +x /data/data/com.termux/files/usr/bin/ubuntu && PWDx=$PWD && cd $HOME && rm -rf VNC && apt install -y git && git clone https://github.com/ShivaShirsath/VNC.git && cd VNC && bash install && cd $PWDx && ubuntu
 ```
 
 + **Ubuntu GUI ( xfce4 )**
