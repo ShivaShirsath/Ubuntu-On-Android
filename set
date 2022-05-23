@@ -39,7 +39,7 @@ rm -rf /usr/local/bin/INSTALL
 wget https://raw.githubusercontent.com/ShivaShirsath/Bash/main/INSTALL -O /usr/local/bin/INSTALL
 chmod +x /usr/local/bin/*
 
-INSTALL git fish dialog xfce4 xfce4-goodies firefox fonts-indic fonts-emojione
+sudo apt install -y git fish dialog xfce4 xfce4-goodies firefox fonts-indic fonts-emojione
 
 dialog --colors --infobox "\Z1Removing…\nTheme & Icons.\Z0" 0 0
 sleep 1
