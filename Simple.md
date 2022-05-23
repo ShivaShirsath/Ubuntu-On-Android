@@ -9,7 +9,7 @@
 + **GUI Level**
 
   ```bash
-  cd ~ && apt install -y wget git && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && bash set
+  cd ~ && sudo apt install -y wget git && rm -rf set && wget https://raw.githubusercontent.com/ShivaShirsath/Ubuntu-On-Android/main/set && chmod +x set && bash set
   ```
 
 <!--
